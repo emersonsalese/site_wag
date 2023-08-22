@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background-color: rgb(9, 39, 9);
+}
+.cabecalho{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(9, 39, 9);
+    align-items: center;
+    padding: 1rem;
+}
+.logo{
+    color: green;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.cabecalho_esquerda{
+    display: flex;
+    justify-content: end;
+    gap: 1.25rem;
+}
+.lado_esquerdo{
+    padding-left: 2.19rem;
+    display: flex;
+    gap: 1.88rem;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+}
+.menu_esquerdo{
+    text-decoration: none;
+    color: black;
+}
+.lado_direito{
+    display: flex;
+    gap: 1.56rem;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
+}
+.menu_direito{
+    text-decoration: none;
+    color: black;
+}
+#imagem_login{
+    width: 1.38rem;
+    vertical-align: middle;
+}
+#acessibilidade{
+    width: 1rem;
+    vertical-align: middle;
+}
+.botao{
+    text-decoration: none;
+    color: white;
+    border: green;
+    background-color: green;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.38rem;
+}
+.botao:hover{
+    background-color: rgb(95, 95, 40);
+}
+.conteudo{
+    color: white;
+    padding: 5% 0 0 10%;
+    display: flex;
+    justify-content:start;
+    align-items:start;
+    text-align: left;
+    gap: 8%;
+}
+.conteudo_titulo1{
+    font-family: 'Inter', sans-serif;
+    font-size: 4.5rem;
+    padding: 2%;
+}
+.conteudo_titulo2{
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    padding: 2%;
+}
+.conteudo_paragrafo{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    padding: 5% 2%;
+    align-self: flex-start;
+}
+.imagens_circulo{
+    display: flex;
+    gap: 1.75rem;
+    padding: 2% 0;
+}
+.formulario{
+    border: 1px solid white;
+    margin: 2.3rem 4rem 0 0;
+    display: flex;
+    background-color: rgb(226, 221, 221);
+    padding: 2rem 1.5rem 4rem 1.5rem;
+}
+.caixa_texto{
+    width: 15rem;
+    height: 2rem;
+    padding: 0.2rem;
+    margin: 1rem 1rem;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
+    border: 0.1rem solid grey;
+    border-radius: 0.3rem;
+}
+.quadrado{
+    width: 16rem;
+    height: 16rem;
+    background-color: white;
+    margin: 1rem 2rem 0 1rem;
+}
+.texto_imagem{
+    padding: 1% 0 0 0;
+}
+.texto_formulario{
+    color: black;
+}
+.campos{
+    display: flex;
+    flex-direction: column;
+}
+.texto_quadrado{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 1rem;
+}
+.img_qrcode{
+    width: 70%;
+    padding: 0.3rem;
+}
+.texto_quadrado1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.imagens_animais{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+.rodape_conteudo{
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 6rem 0 0 0;
+    padding: 0.6rem;
+    background-color: white;
+}
