@@ -25,7 +25,8 @@ body{
 }
 .cabecalho_esquerda{
     display: flex;
-    justify-content: end;
+    justify-content: flex-start;
+    align-items: center;
     gap: 1.25rem;
 }
 .lado_esquerdo{
