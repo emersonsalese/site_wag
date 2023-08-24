@@ -168,3 +168,74 @@ body{
     position: absolute;
     bottom: 0;
 }
+
+@media (max-width: 48rem) {
+
+    body {
+        padding: 0;}
+
+    .cabecalho {
+        padding: 0.5rem; /* Reduza o padding do cabeçalho */}
+
+    .cabecalho_esquerda {
+        flex-direction: column; /* Empilhe os elementos verticalmente */
+        gap: 0.5rem; /* Espaçamento menor entre os itens */
+        }
+    .lado_esquerdo{
+        font-size: 0.5rem;
+    }
+    .lado_direito {
+        display: none; /* Esconda os menus laterais */
+    }
+    .logo {
+        font-size: 0.5rem;
+    }
+    .conteudo {
+        padding: 12% 5%; /* Espaçamento nas laterais */
+        flex-direction: column; /* Empilhe os elementos verticalmente */
+        align-items: center; /* Centralize os elementos horizontalmente */
+        text-align: center; /* Centralize o texto */
+        gap: 1rem;
+      }
+    
+      .conteudo_titulo1,
+      .conteudo_titulo2,
+      .conteudo_paragrafo {
+        font-size: 1.5rem; /* Ajuste os tamanhos das fontes */
+      }
+    
+      .imagens_animais {
+        gap: 1rem; /* Espaçamento entre as imagens */
+        height: 4rem;
+        width: 4rem;
+      }
+    
+      .formulario {
+        margin: 2rem 0; /* Reduza a margem superior e inferior */
+        padding: 1rem; /* Espaçamento interno */
+        gap: 1rem;
+      }
+    
+      .caixa_texto {
+        width: 100%; /* Ocupa toda a largura disponível */
+        margin: 0.5rem 0; /* Espaçamento vertical entre os campos */
+      }
+    
+      .quadrado {
+        width: 40%; /* Ocupa toda a largura disponível */
+        height: auto; /* Altura automática */
+        margin: 0.4rem;
+      }
+    
+      .rodape_conteudo {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        padding: 0.2rem;
+        font-size: ;
+      }
+    
+}
